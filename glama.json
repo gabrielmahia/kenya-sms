@@ -1,0 +1,28 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/1.0.0/server.json",
+  "name": "kenya-sms",
+  "version": "0.1.0",
+  "description": "Kenya SMS \u2014 Africa's Talking SMS integration for civic AI tools. EN/SW bilingual messaging, bulk SMS, and delivery tracking for civic applications.",
+  "license": "MIT",
+  "homepage": "https://gabrielmahia.github.io",
+  "author": {
+    "name": "Gabriel Mahia",
+    "email": "contact@aikungfu.dev",
+    "url": "https://gabrielmahia.github.io"
+  },
+  "keywords": [
+    "kenya",
+    "sms",
+    "africa-talking",
+    "civic",
+    "messaging",
+    "swahili",
+    "africa"
+  ],
+  "categories": [
+    "Communication"
+  ],
+  "links": {
+    "github": "https://github.com/gabrielmahia/kenya-sms"
+  }
+}
