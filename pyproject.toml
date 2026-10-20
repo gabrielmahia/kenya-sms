@@ -1,13 +1,13 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "kenya-sms"
-version = "1.0.0"
+version = "1.0.1"
 description = "Africa's Talking SMS wrapper for Kenya — bilingual templates, delivery tracking, bulk sending."
 readme = "README.md"
-license = {text = "CC-BY-NC-ND-4.0"}
+license = "CC-BY-NC-ND-4.0"
 authors = [{name = "Gabriel Mahia", email = "contact@aikungfu.dev"}]
 keywords = ["kenya", "sms", "africas-talking", "kiswahili", "python", "africa", "fintech", "communications"]
 classifiers = [
@@ -17,10 +17,14 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
     "Typing :: Typed",
 ]
 requires-python = ">=3.10"
 dependencies = ["africastalking>=2.0"]
+license-files = ["LICENSE"]
 
 [project.optional-dependencies]
 dev = ["pytest>=7", "ruff", "africastalking>=2.0"]
