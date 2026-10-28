@@ -5,7 +5,7 @@
 ## What this is
 Kenya SMS — Africa's Talking SMS integration for civic AI tools. EN/SW bilingual alert templates.
 
-- Primary language: Python. Last push: 2026-10-21. Homepage: none listed.
+- Primary language: Python. Last push: 2026-10-28. Homepage: none listed.
 - Detected from the files: Python packaging, a Dockerfile, tests under a tests directory or test_*.py files.
 - CI workflows: ci.yml, publish.yml.
 - Generated on 2026-10-28 from the repository's own files and GitHub metadata, not reviewed line by line. Anything marked UNKNOWN could not be determined: confirm it before relying on it, and correct this file when you learn better.
