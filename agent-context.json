@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "repository": "gabrielmahia/kenya-sms",
+  "project": "kenya-sms",
+  "stable_branch": "main",
+  "integration_branch": "main",
+  "purpose": "Kenya SMS — Africa's Talking SMS integration for civic AI tools. EN/SW bilingual alert templates.",
+  "cold_start": [
+    "AGENTS.md",
+    "README.md"
+  ],
+  "commands": {
+    "install": "pip install -e .",
+    "test": "python -m pytest",
+    "lint": "see .github/workflows/ci.yml"
+  },
+  "coordination": {
+    "task_registry": "GitHub Issues",
+    "work_claim": "Draft PR",
+    "branch_pattern": "agent/<agent-name>/<issue-number>-<slug>",
+    "pr_title_pattern": "[CLAIM #<issue>] <agent-name>: <scope>",
+    "authority": "Tests and external reality, not model consensus"
+  },
+  "current_workstreams": [],
+  "prohibited_autonomous_actions": [
+    "change licensing",
+    "expose credentials",
+    "present simulated or demo data as real",
+    "weaken a safety guard or truth label"
+  ],
+  "reasoning_standard": {
+    "id": "coverage-adaptive-reasoning:v2",
+    "canonical": "https://github.com/gabrielmahia/nairobi-stack/blob/main/docs/COVERAGE_ADAPTIVE_REASONING.md"
+  },
+  "provenance": {
+    "generated": "2026-10-28",
+    "from": "the repository's files and GitHub metadata",
+    "unknown": [
+      "licence"
+    ]
+  }
+}
