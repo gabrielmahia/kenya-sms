@@ -3,7 +3,7 @@
 **Africa's Talking SMS wrapper for Kenya — bilingual templates, delivery tracking, bulk sending.**
 
 [![CI](https://github.com/gabrielmahia/kenya-sms/actions/workflows/ci.yml/badge.svg)](https://github.com/gabrielmahia/kenya-sms/actions)
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](#)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](#)
 [![Tests](https://img.shields.io/badge/tests-43%20passing-brightgreen)](#)
 [![Zero deps](https://img.shields.io/badge/dependencies-zero-brightgreen)](#)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](LICENSE)

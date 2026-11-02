@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kenya-sms"
-version = "1.0.1"
+version = "1.0.2"
 description = "Africa's Talking SMS wrapper for Kenya — bilingual templates, delivery tracking, bulk sending."
 readme = "README.md"
 license = "CC-BY-NC-ND-4.0"
@@ -14,7 +14,6 @@ classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -22,7 +21,7 @@ classifiers = [
     "Programming Language :: Python :: 3.15",
     "Typing :: Typed",
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = ["africastalking>=2.0"]
 license-files = ["LICENSE"]
 
@@ -38,7 +37,7 @@ addopts = "--tb=short -q"
 
 [tool.ruff]
 line-length = 100
-target-version = "py310"
+target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "W"]
