@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kenya-sms"
-version = "1.0.2"
+version = "1.0.3"
 description = "Africa's Talking SMS wrapper for Kenya — bilingual templates, delivery tracking, bulk sending."
 readme = "README.md"
 license = "CC-BY-NC-ND-4.0"
@@ -29,6 +29,7 @@ license-files = ["LICENSE"]
 dev = ["pytest>=7", "ruff", "africastalking>=2.0"]
 
 [project.urls]
+Issues = "https://github.com/gabrielmahia/kenya-sms/issues"
 Homepage = "https://github.com/gabrielmahia/kenya-sms"
 
 [tool.pytest.ini_options]
