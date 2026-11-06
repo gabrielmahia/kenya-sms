@@ -1,7 +1,7 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/1.0.0/server.json",
   "name": "kenya-sms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Kenya SMS — Africa's Talking SMS integration for civic AI tools. EN/SW bilingual messaging, bulk SMS, and delivery tracking for civic applications.",
   "license": "MIT",
   "homepage": "https://gabrielmahia.github.io",
