@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "kenya-sms"
 abstract: "Africa's Talking SMS wrapper for Kenya — bilingual templates, delivery tracking, bulk sending."
-version: "1.0.3"
+version: "1.0.4"
 authors:
   - family-names: "Mahia"
     given-names: "Gabriel"
