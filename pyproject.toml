@@ -7,7 +7,7 @@ name = "kenya-sms"
 version = "1.0.3"
 description = "Africa's Talking SMS wrapper for Kenya — bilingual templates, delivery tracking, bulk sending."
 readme = "README.md"
-license = "CC-BY-NC-ND-4.0"
+license = "MIT"
 authors = [{name = "Gabriel Mahia", email = "contact@aikungfu.dev"}]
 keywords = ["kenya", "sms", "africas-talking", "kiswahili", "python", "africa", "fintech", "communications"]
 classifiers = [

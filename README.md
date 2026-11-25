@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](#)
 [![Tests](https://img.shields.io/badge/tests-43%20passing-brightgreen)](#)
 [![Zero deps](https://img.shields.io/badge/dependencies-zero-brightgreen)](#)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 SMS is the primary notification channel for Kenya. This library wraps the
 [Africa's Talking](https://africastalking.com) API with the patterns that
